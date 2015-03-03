@@ -1,0 +1,33 @@
+<html>
+  <head>
+     <meta charset ="UTF-8">
+     <link rel="stylesheet" type="text/css" href="stylesmini.css">
+     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+     <script src="jquery.minigalery.js"></script>
+     <script src="jquery.lazyload.js"></script>
+    
+
+  </head>
+  <body>
+  
+   <div id="divContenedorMini" ></div>
+   <div id="divContenedorjej"></div>
+   <div id="divContenedor"></div>
+   <div id="divContenedor1"></div> 
+    <div id="divContenedor5"></div> 
+    <div id="divContenedor6"></div> 
+   <div id="divContenedor7"></div> 
+   <script>
+
+    var cJson = { "items" : [ { "img" : "1.jpg" },{ "img" : "2.jpg" }, { "img" : "3.jpg" }, { "img": "4.jpg" } ] };
+    $( "#divContenedorMini" ).setMiniGalery( cJson ); 
+    $( "#divContenedorjej" ).setMiniGalery( cJson );
+    $( "#divContenedor" ).setMiniGalery( cJson );
+    $( "#divContenedor1" ).setMiniGalery( cJson );
+    $( "#divContenedor5" ).setMiniGalery( cJson );
+    $( "#divContenedor6" ).setMiniGalery( cJson );
+    $( "#divContenedor7" ).setMiniGalery( cJson );
+
+  </script>
+  </body> 
+</html>
